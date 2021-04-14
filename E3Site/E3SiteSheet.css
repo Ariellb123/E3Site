@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h4 {
+  position: absolute;
+  top: -40px;
+  left: 5px;
+}
+
+#changemode {
+  position: absolute;
+  left: 40px;
+}
+
+#gamespic {
+  position: absolute;
+  left: 65px;
+  bottom: 30px;
+  background: linear-gradient(to bottom, rgba(0,130,170,0),rgba(0,130,170,1)),
+}
+
+#e3-2018 {
+  height: 75px;
+  width: 125px;
+  background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);
+  border-radius: 10px;
+  font-size: 30px;
+  top: 40px;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+}
+
+#e3-2006 {
+  height: 75px;
+  width: 125px;
+  background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+    top: 40px;
+  left: 150px;
+  font-family: 'Roboto', sans-serif;
+}
+
