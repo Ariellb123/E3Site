@@ -1,4 +1,4 @@
-function myfunction(){
+function changebg(){
   var img = document.createElement('img');
 
   img.setAttribute('src', 'https://blogs-images.forbes.com/erikkain/files/2018/03/mario-map.png');
