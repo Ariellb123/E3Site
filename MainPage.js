@@ -1,9 +1,7 @@
-function myfunction(){
-  var img = document.createElement('img');
-
-  img.setAttribute('src', 'https://blogs-images.forbes.com/erikkain/files/2018/03/mario-map.png');
-
-  e.target.appendChild(img);
+function changemode(){
+  var div = document.getElementById('changemode');
+  var style = document.body.style.background = 'black';
+  div.style = style;
 };
 
 document.getElementById("e3-2018").addEventListener("mouseover", function() {
