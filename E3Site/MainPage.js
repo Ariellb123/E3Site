@@ -1,9 +1,16 @@
-function changebg(){
-  var img = document.createElement('img');
+function changemode(){
+    var div = document.getElementById('changemode');
+    var style = document.body.style.background = 'black';
+    div.style - style;
+};
 
-  img.setAttribute('src', 'https://blogs-images.forbes.com/erikkain/files/2018/03/mario-map.png');
-
-  e.target.appendChild(img);
+function secret(){\
+    var result = prompt("Please enter your name", "");
+    if(result == "") {
+    alert("You didnt input anything");
+    } else {
+        alert(result);
+    }
 };
 
 document.getElementById("e3-2018").addEventListener("mouseover", function() {
