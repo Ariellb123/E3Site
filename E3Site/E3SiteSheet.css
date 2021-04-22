@@ -11,13 +11,6 @@ h4 {
   left: 340px;
 }
 
-#gamespic {
-  position: absolute;
-  left: 65px;
-  bottom: 30px;
-  background: linear-gradient(to bottom, rgba(0,130,170,0),rgba(0,130,170,1)),
-}
-
 #e3-2018 {
   height: 100px;
   width: 125px;
