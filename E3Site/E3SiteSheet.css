@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
 h4 {
   position: absolute;
@@ -19,18 +19,18 @@ h4 {
 }
 
 #e3-2018 {
-  height: 75px;
+  height: 100px;
   width: 125px;
   background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);
   border-radius: 10px;
   font-size: 30px;
   top: 40px;
   position: absolute;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #e3-2006 {
-  height: 75px;
+  height: 100px;
   width: 125px;
   background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);
   border-radius: 10px;
@@ -39,6 +39,11 @@ h4 {
   position: absolute;
     top: 40px;
   left: 150px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
+#mainText {
+  font-family: 'Noto Sans KR', sans-serif;
+  position: absolute;
+  top: 150px;
+}
