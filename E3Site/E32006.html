@@ -2,14 +2,24 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="E3SubSheet.css">
+<link rel="stylesheet" type="text/css" href="E3SiteSheet.css"/>
 </head>
-<body>
+<body onload="keyPress()">
 <script src="SubPage.js"></script>
+<script src="MainPage.js"></script>
+
+<div id="home">
+
+  <button id ="home">
+  <a href='/Users/jared/Desktop/ProgrammingProjects/E3Site/index.html'>Home</a>
+  </button>
+
+</div>
 
 <div id="changemode">
 
   <button id ="changemode" onclick="changemode()">
-  Dark Mode
+  Background
   </button>
 
 </div>
@@ -22,10 +32,25 @@
 </div>
 
 
+<div class="pageLink">
+	<div id="e3-2018">
+		<h4>
+			E3<br>2018
+		</h4>	
+	</div>
+
+	<div id="e3-2006">
+ 		<h4>
+			<a href='/Users/jared/Desktop/ProgrammingProjects/E3Site/E32006.html'>E3<br>2006</a>
+		</h4>
+	</div>
+</span>
+
+
 <div id="E3Text">
-  <h4>
+  <h5>
     <b>E3 2006</b>
-  </h4>
+  </h5>
 </div>
 
 <div class="slideshow-container">
@@ -43,8 +68,9 @@
     <div class="text">People playing the original Nintendo DS</div>
   </div>
 
-	<div class ="rectangle">
-	</div>
+<div class="rectangle">
+</div>
+
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="https://media.gettyimages.com/photos/los-angeles-united-states-vistiors-test-new-games-at-the-playstation-picture-id57580229?s=2048x2048" style="width:100%">
@@ -59,15 +85,16 @@
 
 <!-- The dots/circles -->
 <div class="dots">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dota" onclick="currentSlide(1)"></span> 
+  <span class="dotb" onclick="currentSlide(2)"></span> 
+  <span class="dotc" onclick="currentSlide(3)"></span> 
 </div>
 
 <div id="eventText">
 
 	<p>
-  		<b>E3 is the world's biggest video game convention.</b> <br> Each yeah, various video game companies present their games on various different platforms. Let's take a look at 5 various E3 conventions, and what the biggest video game publishers, like Nintendo, Sony, and Microsoft, presented at each one.
+  		Here's what was unveiled at E3 2006: <br> <b>Nintendo</b> <br> - Showed off the Wii and many of it's games, including Super Mario Galaxy, Metroid Prime 3, and Wii Sports. <br> - Revealed the Legend of Zelda: Twilight Princess' Wii port, including it's widescreen visuals and motion controls <br> - Unveiled the DS Lite, the smaller, slimmer version of the original Nintendo DS.
+<br> <b> Sony </b> <br> - Revealed the PlayStation 3, that it could play CDs and DVDs, and that it would be able to output 1080p gameplay, which wasn't something any other game console had. <br> -Revealed the first Uncharted game, and the overall Uncharted series sold 18 million games on the PS3 alone <br> <b> Microsoft </b> <br> - Some big Xbox 360 games were revealed, including Mass Effect and Bioshock <br> - Announced many new Xbox Live games, including Contra, Frogger, and Pac-Man
 	</p>
 
 </div>

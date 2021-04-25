@@ -8,24 +8,9 @@ function secret() {
 };
 
 function changemode(){
-    var div = document.getElementById('changemode');
-    var style = document.body.style.background = 'black';
-	var style2 = document.body.style.color = 'white';
-	div.style = style;
-	div.style = style2;
+	var element = document.body;
+	element.classList.toggle("dark-mode");
 };
-
-function changemode2(){
-    var div = document.getElementById('changemode');
-    if(document.body.style.background = 'white') {
-        var style = "document.body.style.background = 'black'; color: white;";
-    }
-    else {
-        var style = document.body.style.background = 'white';
-    }
-  div.style = style;
-};
-
 
 document.getElementById("e3-2018").addEventListener("mouseover", function() {
     var div = document.getElementById('e3-2018');

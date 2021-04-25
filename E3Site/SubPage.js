@@ -26,3 +26,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+function keyPress() {
+	var x = event.keyCode;
+  	
+	if (x == 119) {  
+		 showSlides(slideIndex = n - 1);
+
+	}
+   	if (x == 115) {  
+		showSlides(slideIndex = n + 1);
+	}
+}

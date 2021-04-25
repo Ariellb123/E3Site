@@ -6,10 +6,43 @@ h4 {
   left: 5px;
 }
 
-#changemode {
-  position: absolute;
-  left: 340px;
+#E3Text {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	position: absolute;
+  	top: 125px;
+  	left: 20px;
+	font-size: 40px;
 }
+
+body {
+  background-color: white;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#home {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#changemode {
+	position: absolute;
+	top: 20px;
+	left: 75px;
+}
+
+#secret {
+	position: absolute;
+	top: 20px;
+	left: 150px;
+}
+
 
 #e3-2018 {
   height: 100px;
@@ -17,7 +50,7 @@ h4 {
   background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);
   border-radius: 10px;
   font-size: 30px;
-  top: 40px;
+  top: 75px;
   position: absolute;
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -30,13 +63,17 @@ h4 {
   font-size: 30px;
   text-align: left;
   position: absolute;
-    top: 40px;
+  top: 75px;
   left: 150px;
   font-family: 'Noto Sans KR', sans-serif;
 }
 
 #mainText {
-  font-family: 'Noto Sans KR', sans-serif;
-  position: absolute;
-  top: 150px;
+	position: absolute;
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: right;
+	word-break: normal;
+	width: 800px;
+	left:600px;
+	top:200px;
 }
