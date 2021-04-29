@@ -35,3 +35,16 @@ document.getElementById("e3-2006").addEventListener("mouseout", function() {
     var style = "background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);";
     div.style = style;
 });
+
+document.getElementById("e3-2010").addEventListener("mouseover", function() {
+    var div = document.getElementById('e3-2010');
+    var style = "background: linear-gradient(to bottom, #6c88d9 0%, #0037d3 100%); color: white;";
+    div.style = style;
+});
+    
+document.getElementById("e3-2010").addEventListener("mouseout", function() {
+    var div = document.getElementById('e3-2010');
+    var style = "background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);";
+    div.style = style;
+});
+
