@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
-h4 {
+h3 {
   position: absolute;
   top: -40px;
   left: 5px;
@@ -37,6 +37,12 @@ body {
 	left: 75px;
 }
 
+#home {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+
 #secret {
 	position: absolute;
 	top: 20px;
@@ -68,6 +74,19 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+#e3-2013 {
+  height: 100px;
+  width: 125px;
+  background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+  top: 75px;
+  left: 330px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 #e3-2018 {
   height: 100px;
   width: 125px;
@@ -75,7 +94,19 @@ body {
   border-radius: 10px;
   font-size: 30px;
   top: 75px;
-  left: 330px;
+  left: 480px;
+  position: absolute;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#blog {
+  height: 100px;
+  width: 125px;
+  background: linear-gradient(to bottom, #c2c2c2 0%, #adadad 100%);
+  border-radius: 10px;
+  font-size: 30px;
+  top: 75px;
+  left: 630px;
   position: absolute;
   font-family: 'Noto Sans KR', sans-serif;
 }

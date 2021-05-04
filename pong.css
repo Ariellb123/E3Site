@@ -1,0 +1,43 @@
+#field {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: black;
+  top:180px;
+}
+
+#paddle {
+
+  width: 30px;
+  height: 100px;
+  position: absolute;
+  background-color: grey;
+  left:15px;
+  top:180px;
+}
+
+#paddle2 {
+
+  width: 30px;
+  height: 100px;
+  position: absolute;
+  background-color: grey;
+  right:15px;
+  top:180px;
+}
+
+
+#ball {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background: white;
+  left:345px;
+  top:330px;
+  border-radius: 50%;
+}
+
+#moveball {
+  position: absolute;
+  top:600px;
+}

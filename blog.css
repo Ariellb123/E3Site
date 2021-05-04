@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap');
+
+.instructions {
+	position: absolute;
+	top: 200px;
+	font-family: 'Karla', sans-serif;
+}
+
+.bloglist {
+	position: absolute;
+	top: 350px;
+	font-family: 'Karla', sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+}

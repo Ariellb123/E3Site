@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="E3SiteSheet.css"/>
+<link rel="stylesheet" href="pong.css"/>
+<link rel="stylesheet" type="text/css" href="E3SubSheet.css">
+<link rel="stylesheet" type="text/css" href="E3SiteSheet.css"/>
+<script src="pong.js"></script>
+<script src="SubPage.js"></script>
+<script src="MainPage.js"></script>
 </head>
-<body>
 
 <div id="home">
 
   <button id ="home">
   <a href='index.html'>Home</a>
-  </button>
-
-</div>
-
-<div id="changemode">
-
-  <button id ="changemode" onclick="changemode()">
-  Background
   </button>
 
 </div>
@@ -63,13 +59,20 @@
 </span>
 
 
-<div id="mainText">
+<body onkeydown ="StartPaddles()"> 
+<! NOTE: There are two divisions here: -->
+<! Container is the field  - and is made yellow by the CSS commands -->
+<! animate is the square that is made to move around the screen -->
 
-	<p>
-  		<b>E3 is the world's biggest video game convention.</b> <br> Each yeah, various video game companies present their games on various different platforms. Let's take a look at 5 various E3 conventions, and what the biggest video game publishers, like Nintendo, Sony, and Microsoft, presented at each one.
-	</p>
+<div id ="field">
+<div id ="paddle"></div>
+<div id ="paddle2"></div>
+<div id ="ball"></div>
+
 </div>
-<script src="MainPage.js"></script>
 
+<div id="moveball">
+<button type="button" onclick="MoveBall()"> Move Ball!</button>
+</div>
 </body>
 </html>
